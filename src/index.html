@@ -2288,7 +2288,7 @@
                         XLSX.writeFile(wb, "养老保险补缴批量计算模板.xlsx");
                         
                         // 使用自定义消息提示替代alert
-                        showMessage("Excel模板下载成功！");
+                        showMessage("Excel模板下载成功（默认保存在系统下载目录）！");
                     } catch (error) {
                         console.error("模板下载失败:", error);
                         showMessage("模板下载失败: " + error.message);
